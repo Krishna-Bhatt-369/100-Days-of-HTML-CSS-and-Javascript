@@ -83,16 +83,105 @@
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti non repellat placeat laudantium soluta. Magnam sint in esse odit debitis atque harum enim fuga praesentium. Ad debitis iure nihil odit?</p>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti non repellat placeat laudantium soluta. Magnam sint in esse odit debitis atque harum enim fuga praesentium. Ad debitis iure nihil odit?</p>
 
-<table border="1">
-  <tr>
-    <td>Krishna</td>
-    <td>Developer</td>
-  </tr>
-  <tr>
-    <td>Sam</td>
-    <td>Designer</td>
-  </tr>
-</table>
+<br> <br>
+         <table border="1">
+             <tr>
+                 <th>Name</th>
+                 <th>Course</th>
+                 <th>Grade</th>
+             </tr>
+             <tr>
+                 <td>Krishna Bhatt</td>
+                 <td>Bsc.IT</td>
+                 <td>A</td>
+             </tr>
+             <tr>
+                 <td>Prabin Panthi</td>
+                 <td>Bsc.IT</td>
+                 <td>B</td>
+             </tr>
+             <tr>
+                 <td>Anup Phokeral</td>
+                 <td>Bsc.IT</td>
+                 <td>A</td>
+             </tr>
+             <tr>
+                 <td>Sirjana Bhat</td>
+                 <td>BBA</td>
+                 <td>C</td>
+             </tr>
+
+         </table>
+<br> <br>
+         <table border="2">
+                <tr>
+                    <th>SN</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Milk</td>
+                    <td>Rs. 50</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Sugar</td>
+                    <td>Rs. 100</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Parle-G</td>
+                    <td>Rs. 20</td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td>Rs. 170</td>
+                </tr>
+
+         </table>
+<br> <br>
+<fieldset>
+    
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Enter your password" minlength="8"><br><br>
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="">Select a course</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+            </select><br><br>
+            <p>Select your skills</p>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>  
+
+            <!-- Radio Buttons:<br> -->
+             <p>Choose your level</p>
+            <input type="radio" id="beginner" name="level" value="beginner" required>
+            <label for="beginner">Beginner</label><br>
+            <input type="radio" id="intermediate" name="level" value="intermediate" required>
+            <label for="intermediate">Intermediate</label><br>
+            <input type="radio" id="advanced" name="level" value="advanced" required>
+            <label for="advanced">Advanced</label><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" rows="1" cols="50"></textarea><br><br> 
+            <input type="submit" value="Submit">
+        </form>
 
 
 
