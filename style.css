@@ -1,5 +1,11 @@
 body{
-    background-color: beige; 
+    background: linear-gradient(skyblue,limegreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+background-image: url(https://reddit.com/r/pics/comments/bh8dz8/i_saw_someone_post_a_picture_of_their_chess_board);
+background-attachment: center;
+background-size: cover;
+
 }
 
 #dunno{
@@ -10,6 +16,127 @@ body{
 
 .website{
 
-    color: yellow;
-    background-color: aqua;
+    /* color: yellow;
+    background-color: aqua; */
+    a:link{
+        color: skyblue;
+    }
+
+    a:visited{
+        color: yellowgreen;
+    }
+
+    a:hover{
+        color:yellow;
+    }
+    button:hover{
+        background-color: slategray;
+    }
+    button:active{
+        background-color: seagreen;
+    }
 }
+
+h1{
+    color: teal;
+    background-color: turquoise;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-top-style: dotted;
+    border-bottom-style: dotted ;
+}
+
+h2 {
+  border-style: dotted;
+  border-radius: 10px;
+  border-color: gold;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 5px 5px 5px skyblue;
+
+ /*  animation: mySlide;
+  animation-iteration-count: infinite;
+  animation-duration: 5s; */
+
+  animation: 5s linear 0s infinite running myColorChange;
+  
+}
+
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left:0%;}
+}
+
+@keyframes myColorChange{
+    0%{background-color: red;}
+    20%{background-color: turquoise;}
+    40%{background-color: cyan;}
+    60%{background-color: dimgray;}
+    80%{background-color: skyblue;}
+    100%{background-color: purple;}
+
+
+
+}
+
+h2:hover{
+    box-shadow: 5px 5px 5px cadetblue;
+}
+
+.box1{
+    border: 5px solid;
+    width: 300px;
+    height: 200px;
+    background-color: wheat;
+    text-align: center ;
+    margin: 10px, 20px,30px,40px ;
+}
+
+.box2{
+    border: 5px solid;
+    width: 300px;
+    height: 200px;
+    background-color: skyblue;
+    margin: 10px, 20px,30px,40px ;
+    text-align: center;
+    float: both;
+}
+
+.box3{
+    border: 5px solid;
+    width: 300px;
+    height: 200px;
+    background-color: wheat;
+    text-align: center ;
+    /* margin: 10px, 20px,30px,40px ; */
+    
+   /*  position: absolute; */
+   /*  position: sticky; */
+    /* position: static; */
+   /*  position: fixed; */
+   position: relative;
+
+   top: 50px;
+   left: 50px;
+}
+
+.box4{
+    border: 5px solid;
+    width: 300px;
+    height: 200px;
+    background-color: skyblue;
+    margin: 10px, 20px,30px,40px ;
+    text-align: center;
+    /*  position: fixed;  */
+
+}
+
+li:nth-child(odd){
+background-color: aqua;
+}
+
+li:nth-child(even){
+    background-color: skyblue;
+}
+
