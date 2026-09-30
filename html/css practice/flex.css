@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 10px solid black;
+    height: 21vh;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 3em;
+    row-gap: 3em;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    font-size: 3em;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1 {
+     background-color: tomato;
+     /* align-self: center; */
+     /* order: 1; */
+     }
+#box2 {
+     background-color: aqua; 
+    }
+#box3 {
+     background-color: yellow;
+     }
+#box4 {
+     background-color: silver; 
+    }
+#box5 {
+     background-color: lightgreen; 
+    }
